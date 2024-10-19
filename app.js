@@ -18,7 +18,6 @@ function sortear(){
 
             while (sorteados.includes(numero)){
                 numero = obterNumeroAleatorio(de, ate);
-                alert('Tentando obter número inédito');
             }
 
             sorteados.push(numero);
